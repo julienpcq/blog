@@ -39,4 +39,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise', '~> 4.2'
-gem 'rails_12factor', group: :production
+gem 'rails_12factor', group: :production # To solve Heroku Devise'signout problem
