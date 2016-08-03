@@ -40,3 +40,4 @@ gem 'spring',        group: :development
 
 gem 'devise', '~> 4.2'
 gem 'rails_12factor', group: :production # To solve Heroku Devise'signout problem
+gem 'skeleton-rails', :git => 'https://github.com/helios-technologies/skeleton-rails'
