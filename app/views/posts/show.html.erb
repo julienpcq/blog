@@ -2,4 +2,4 @@
 <p>Find me in app/views/posts/show.html.erb</p>
 
 <%= @post.title %>
-<%= @post.content %>
+<%= simple_format(@post.content) %>
