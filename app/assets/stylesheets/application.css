@@ -15,3 +15,9 @@
  *= require normalize
  *= require skeleton
  */
+
+.navbar{
+  width: 100%;
+  background-color: lightgrey;
+  padding: 10px;
+}
