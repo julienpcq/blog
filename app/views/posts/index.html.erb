@@ -1,8 +1,8 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<h1>Derniers articles</h1>
 
 <% @posts.each do |post| %>
   <h1><%= link_to post.title, post %></h1>
+  <small><%= time_ago_in_words(post.created_at) %></small>
   <p><%= post.content %></p>
   <%= link_to "Edit", edit_post_path(post) %>
   <%= link_to "Destroy", post, method: :delete, data: {confirm: "Really?"} %>
